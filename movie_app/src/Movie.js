@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import './Movie.css';
+// npm i axios
+// npm i prop-types
 
 function Movie({id, year, title, summary, poster, genres}) {
     return (
